@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang= "ro">
+    <head>
+        <meta charset=utf-8> 
+        <title>OLX Crawler</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+            body {
+                height: 100vh;
+                width: 100vw;
+                margin:0;
+                padding:0;
+                border:none;
+                display:flex;
+                position:relative;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color:#121212;
+                color:hsla(0, 0%, 100%, 0.87);
+                font-family: 'Ubuntu', sans-serif;
+            }
+
+            .bgsquare{
+                background-color: hsla(0, 0%, 100%, 0.05);
+                height:35rem;
+                width:50rem;
+                display:flex;
+                position:relative;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+            }
+
+            h1{
+                font-size:5rem;
+                margin:0;
+                margin-bottom: -3vh;
+            }
+
+            h3{
+                font-size: 2.5rem;
+                margin-bottom: -1vh;
+            }
+
+            #button {
+                position:relative;
+                text-decoration: none;
+                padding: 1rem 5rem;
+                color:white;
+                background-image: linear-gradient(to bottom right, #73A4FC, #4677CF, #5586DE, #6495ED);
+                font-size: 1.5em;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="bgsquare">
+            <h1>OLX Crawler</h1>
+            <h3>Imobiliare</h3>
+            <h2>Cringanu Denis-Florin</h2>
+            <form action="/filters/">
+                <input id="button" type="submit" value="Generate" />
+            </form>
+        </div>
+    </body>
+</html>

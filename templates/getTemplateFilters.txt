@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "ro">
+    <head>
+        <meta charset=utf-8> 
+        <title>OLX Crawler</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+            body {
+                height: 100vh;
+                width: 100vw;
+                margin:0;
+                padding:0;
+                border:none;
+                display:flex;
+                position:relative;
+                flex-direction: column;
+                align-items: center;
+                background-color:#121212;
+                color:hsla(0, 0%, 100%, 0.87);
+                font-family: 'Ubuntu', sans-serif;
+            }
+
+            .bgsquare{
+                background-color: hsla(0, 0%, 100%, 0.05);
+                width:50rem;
+                display:flex;
+                top: 10vh;
+                position:absolute;
+                flex-direction: column;
+                box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+            }
+
+            h1{
+                font-size:4rem;
+                margin:0;
+                margin-bottom: -3vh;
+                margin-left: 4vw;
+                margin-top: 4vh;
+            }
+
+            h3{
+                font-size: 2rem;
+                margin-bottom: -1vh;
+                margin-left: 4vw;
+            }
+
+            li{
+                margin-left: 4vw;
+            }
+
+            #button {
+                position:relative;
+                text-decoration: none;
+                padding: 1rem 5rem;
+                color:white;
+                background-image: linear-gradient(to bottom right, #73A4FC, #4677CF, #5586DE, #6495ED);
+                font-size: 1.5em;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="bgsquare">
+	    <h1>Filters:</h1>
+		
